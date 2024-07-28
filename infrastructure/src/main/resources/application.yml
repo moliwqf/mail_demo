@@ -1,0 +1,20 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2422706963@qq.com
+    password: bkmtsvnyloavdjed
+    default-encoding: UTF-8
+    protocol: smtp
+    port: 465
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+            required: true
